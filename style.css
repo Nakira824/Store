@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pc-deal {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.pc-title {
+    color: #333;
+    text-align: center;
+}
+
+.pc-specs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pc-specs li {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.pc-pricing, .pc-offer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.price, .discounted-price, .original-price {
+    margin: 5px 0;
+}
+
+.discounted-price {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.financing {
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-now:hover {
+    background-color: #0056b3;
+}
+
+.customize {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.customize:hover {
+    background-color: #0056b3;
+}  
